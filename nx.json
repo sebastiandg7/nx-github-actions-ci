@@ -1,0 +1,45 @@
+{
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "affected": { "defaultBase": "main" },
+  "npmScope": "myorg",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "M2QzMmQwNTItOGY0Ni00ZWVjLWExYTItZTM5ZjdiMDY3MzAyfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "projects": {
+    "admin-web": { "tags": [] },
+    "admin-web-e2e": { "tags": [], "implicitDependencies": ["admin-web"] },
+    "client-web": { "tags": [] },
+    "client-web-e2e": { "tags": [], "implicitDependencies": ["client-web"] },
+    "api": { "tags": [] },
+    "api-lib1": { "tags": [] },
+    "api-lib2": { "tags": [] },
+    "api-lib3": { "tags": [] },
+    "api-lib4": { "tags": [] },
+    "api-lib5": { "tags": [] },
+    "admin-web-lib1": { "tags": [] },
+    "admin-web-lib2": { "tags": [] },
+    "admin-web-lib3": { "tags": [] },
+    "admin-web-lib4": { "tags": [] },
+    "admin-web-lib5": { "tags": [] },
+    "client-web-lib5": { "tags": [] },
+    "client-web-lib4": { "tags": [] },
+    "client-web-lib3": { "tags": [] },
+    "client-web-lib2": { "tags": [] },
+    "client-web-lib1": { "tags": [] }
+  }
+}

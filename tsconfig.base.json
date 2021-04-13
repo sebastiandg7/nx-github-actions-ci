@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@myorg/api/lib1": ["libs/api/lib1/src/index.ts"],
+      "@myorg/api/lib2": ["libs/api/lib2/src/index.ts"],
+      "@myorg/api/lib3": ["libs/api/lib3/src/index.ts"],
+      "@myorg/api/lib4": ["libs/api/lib4/src/index.ts"],
+      "@myorg/api/lib5": ["libs/api/lib5/src/index.ts"],
+      "@myorg/admin-web/lib1": ["libs/admin-web/lib1/src/index.ts"],
+      "@myorg/admin-web/lib2": ["libs/admin-web/lib2/src/index.ts"],
+      "@myorg/admin-web/lib3": ["libs/admin-web/lib3/src/index.ts"],
+      "@myorg/admin-web/lib4": ["libs/admin-web/lib4/src/index.ts"],
+      "@myorg/admin-web/lib5": ["libs/admin-web/lib5/src/index.ts"],
+      "@myorg/client-web/lib5": ["libs/client-web/lib5/src/index.ts"],
+      "@myorg/client-web/lib4": ["libs/client-web/lib4/src/index.ts"],
+      "@myorg/client-web/lib3": ["libs/client-web/lib3/src/index.ts"],
+      "@myorg/client-web/lib2": ["libs/client-web/lib2/src/index.ts"],
+      "@myorg/client-web/lib1": ["libs/client-web/lib1/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

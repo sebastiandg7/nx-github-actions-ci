@@ -116,6 +116,7 @@ jobs:
           command: node ./tools/scripts/run-many.js ${{ matrix.target }} ${{ matrix.index }} ${{ env.count }} ${{ needs.vars.outputs.GITHUB_HEAD_REF }} ${{ needs.vars.outputs.GITHUB_BASE_REF }} $NX_ARGUMENTS
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
+        if: matrix.target == 'build' || matrix.target == 'e2e'
         with:
           name: ${{ env.BUILD_ARTIFACTS }}
           path: dist

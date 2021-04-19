@@ -6,6 +6,13 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
+## References
+
+- [Blazing Fast Distributed CI with Nx](https://blog.nrwl.io/blazing-fast-distributed-ci-with-nx-a1f5974f7393)
+- [10x Faster CI with Nx and Github Actions](https://medium.com/emoteev-blog/10x-faster-ci-with-nx-and-github-actions-9a51fc4e82a6)
+- https://github.com/nrwl/nx-azure-build
+- https://github.com/yannickglt/nx-github-build
+
 ## Adding capabilities to your workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
